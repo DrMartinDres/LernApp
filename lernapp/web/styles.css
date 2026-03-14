@@ -1,0 +1,9 @@
+body { font-family: Arial, sans-serif; margin: 0; background: #f3f7ff; color: #1f2a44; }
+main { max-width: 900px; margin: 0 auto; padding: 20px; }
+.card { background: white; border-radius: 12px; padding: 16px; margin: 14px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+form { display: grid; gap: 10px; }
+input, select, button { padding: 8px; border-radius: 8px; border: 1px solid #c8d2f0; }
+button { background: #4a6cf7; color: white; border: none; cursor: pointer; }
+.review-card { border: 1px dashed #95a8f7; padding: 10px; margin: 8px 0; border-radius: 8px; }
+.quality { display: flex; gap: 6px; flex-wrap: wrap; }
+.quality button { background: #25a55f; }

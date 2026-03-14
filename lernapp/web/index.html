@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LernApp für Kinder</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <main>
+    <h1>📚 LernApp – Karteikasten</h1>
+    <p>Fächer: Deutsch, Englisch, Mathe • mit Active Recall & Spaced Repetition</p>
+
+    <section class="card">
+      <h2>Neue Karte</h2>
+      <form id="card-form">
+        <label>Fach
+          <select name="subject">
+            <option>Deutsch</option>
+            <option>Englisch</option>
+            <option>Mathe</option>
+          </select>
+        </label>
+        <label>Vorderseite <input name="front" required /></label>
+        <label>Rückseite <input name="back" required /></label>
+        <button type="submit">Karte speichern</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Agent: Englisch-Karten erzeugen</h2>
+      <form id="agent-form">
+        <label>Thema
+          <select name="topic">
+            <option value="school">Schule</option>
+            <option value="animals">Tiere</option>
+            <option value="food">Essen</option>
+          </select>
+        </label>
+        <label>Anzahl <input type="number" name="count" value="5" min="1" max="20" /></label>
+        <button type="submit">Per Agent erstellen</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Zu lernen (fällig)</h2>
+      <div id="review"></div>
+    </section>
+
+    <section class="card">
+      <h2>Statistiken</h2>
+      <pre id="stats"></pre>
+    </section>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>
