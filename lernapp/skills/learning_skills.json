@@ -1,0 +1,16 @@
+{
+  "skills": [
+    {
+      "name": "active-recall",
+      "description": "Zeigt erst die Frage, dann die Antwort mit Selbstbewertung (0-5)."
+    },
+    {
+      "name": "spaced-repetition",
+      "description": "Plant Wiederholungen adaptiv mit einem SM-2-ähnlichen Intervallmodell."
+    },
+    {
+      "name": "subject-routing",
+      "description": "Sortiert Karteikarten nach Deutsch, Englisch und Mathe."
+    }
+  ]
+}
